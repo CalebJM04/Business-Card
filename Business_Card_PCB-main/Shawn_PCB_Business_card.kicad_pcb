@@ -8749,19 +8749,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nUniv. Tennessee, 2027"
-		(at 82.7 39.41 0)
-		(layer "F.Cu")
-		(uuid "efc9c44c-9c8b-42b3-ae88-e51023d4151b")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "- Programming"
 		(at 131.42 89.3 0)
 		(layer "F.Cu")
@@ -8848,19 +8835,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.25)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nUniv. Tennessee, 2027"
-		(at 82.7 39.41 0)
-		(layer "F.Mask")
-		(uuid "fb48efa6-b9b3-4cb8-9f18-ce951aea36d8")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
