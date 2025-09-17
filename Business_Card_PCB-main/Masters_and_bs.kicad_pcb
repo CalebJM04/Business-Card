@@ -234,7 +234,6 @@
 		(property "Value" "TestPoint"
 			(at 0 1.55 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "feb6239b-7438-4163-86a5-29a156f69711")
 			(effects
 				(font
@@ -280,6 +279,17 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "3fbb5ec5-d839-4f3b-a3a2-e87486fc0882")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 90)
+			(layer "F.Fab")
+			(uuid "97bc9a3c-9050-4042-8af5-41fb2c8c27f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" smd circle
 			(at 0 0 90)
@@ -691,6 +701,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
+			(net 1930368)
 			(uuid "52689284-30a1-4a82-9e2f-3c6f4dced24e")
 		)
 		(pad "1" smd circle
@@ -971,6 +982,17 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "c43770b9-0fc0-4918-8457-60276019b6a3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 90)
+			(layer "F.Fab")
+			(uuid "02a9d89e-02e8-4c76-a458-eb81b852e12c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" smd circle
 			(at 0 0 90)
@@ -1799,6 +1821,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
+			(net 1930368)
 			(uuid "f2ea795f-1426-4169-a029-7d73d45a51d5")
 		)
 		(pad "1" smd circle
@@ -1876,6 +1899,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
+			(net 1930368)
 			(uuid "1ac7694c-1e05-4056-9a02-e920c31ec2cc")
 		)
 		(pad "1" smd circle
@@ -2889,7 +2913,19 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
+			(net 1930368)
 			(uuid "956942e8-3619-412a-a02a-9f1e728c709d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.45 90)
+			(layer "F.Fab")
+			(uuid "484793e3-abb9-4946-b134-db3be58d3b6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(pad "1" smd circle
 			(at 0 0 90)
@@ -9375,7 +9411,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nUniversity Of Tennessee, 2027"
+	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nMS. Electrical Engineering\nUniv. Tennessee, 2027"
 		(at 109.55 71.95 0)
 		(layer "F.Cu")
 		(uuid "d001aaa0-f03b-4fca-8f00-8e4eb68f5a4c")
@@ -9440,7 +9476,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nUniversity Of Tennessee, 2027"
+	(gr_text "Caleb J. Murray | Radar Engineer\n\nBS. Computer Engineering\nMS. Electrical Engineering\nUniv. Tennessee, 2027"
 		(at 109.55 71.95 0)
 		(layer "F.Mask")
 		(uuid "2ee17b1c-415f-4181-98cc-9dd705c29303")
